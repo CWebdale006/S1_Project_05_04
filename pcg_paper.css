@@ -29,12 +29,6 @@ body {
     margin: 0 auto;
 }
 
-
-
-/*Testing stuff */
-
-
-
 /*Grid Styles*/
 .row {
     clear: both;
@@ -67,16 +61,16 @@ body {
     width: 100%;
 }
 
-.col-2-5 {
-    width: 40%;
+.col-42-100 {
+    width: 42%;
 }
 
 .col-35-100 {
     width: 35%;
 }
 
-.col-1-4 {
-    width: 25%;
+.col-23-100 {
+    width: 23%;
 }
 
 /*nav styles*/
@@ -92,18 +86,37 @@ nav ul {
 }
 
 nav#horizontal li {
-    font-size: 0.9em;
+    font-size: 0.92em;
     text-align: center;
+}
+
+nav,
+nav#horizontal {
+    font-family: ;
+    line-height: 19px;
 }
 
 /*Article Styles*/
 h2 {
     margin: 1vw;
     font-size: 1.1em;
+    font-family: 'Roboto Slab', serif;
 }
 
 p {
     margin: 1vw;
+    text-indent: 1vw;
+    font-family: 'Rosario', sans-serif;
+}
+
+article div.col-23-100 ul {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+article div.col-23-100 ul li {
+    margin-top: 10px;
+    font-family: 'Rosario', sans-serif;
 }
 
 /*Logo*/
@@ -119,4 +132,5 @@ footer {
     clear: both;
     background-color: rgb(158, 141, 47);
     text-align: center;
+    padding: .5vw;
 }
