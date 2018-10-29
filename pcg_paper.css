@@ -17,7 +17,7 @@
 /*Body and Browser layout styles*/
 html {
     height: 100%;
-    background-color: rgb(99, 62, 13);
+    background-color: rgb(128, 97, 21);
 }
 
 body {
@@ -25,7 +25,7 @@ body {
     min-width: 640px;
     max-width: 960px;
     min-height: 100%;
-    background-color: rgb(207, 189, 84);
+    background-color: rgb(212, 182, 106);
     margin: 0 auto;
 }
 
@@ -76,7 +76,7 @@ body {
 /*nav styles*/
 nav ul li a {
     text-decoration: none;
-    color: rgb(230, 209, 95);
+    color: rgb(85, 61, 0);
 }
 
 nav ul {
@@ -130,7 +130,7 @@ header img {
 /*Footer Styles*/
 footer {
     clear: both;
-    background-color: rgb(158, 141, 47);
+    background-color: rgb(128, 79, 21);
     text-align: center;
     padding: .5vw;
 }
