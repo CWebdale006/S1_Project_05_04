@@ -29,6 +29,10 @@ body {
     margin: 0 auto;
 }
 
+header {
+    background-color: rgb(168, 139, 66);
+}
+
 /*Grid Styles*/
 .row {
     clear: both;
@@ -92,8 +96,11 @@ nav#horizontal li {
 
 nav,
 nav#horizontal {
-    font-family: ;
     line-height: 19px;
+}
+
+div.col-1-1 h2 {
+    margin-top: 0;
 }
 
 /*Article Styles*/
@@ -119,6 +126,10 @@ article div.col-23-100 ul li {
     font-family: 'Rosario', sans-serif;
 }
 
+article div.col-23-100 ul ul li {
+    margin-left: 1vw;
+}
+
 /*Logo*/
 header img {
     display: block;
@@ -130,7 +141,7 @@ header img {
 /*Footer Styles*/
 footer {
     clear: both;
-    background-color: rgb(128, 79, 21);
+    background-color: rgb(167, 117, 57);
     text-align: center;
     padding: .5vw;
 }
