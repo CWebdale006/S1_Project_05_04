@@ -15,11 +15,13 @@
 */
 
 /*Body and Browser layout styles*/
+/*Sets height and background color of the browser window*/
 html {
     height: 100%;
     background-color: rgb(128, 97, 21);
 }
 
+/*Sets the width of the body element to 95% of the browser window, with a max width of 960 pixels and a min width of 640 pixels. Sets the minimum height to expand to the end of the browser window. Changed background color and set margin to center body. */
 body {
     width: 95%;
     min-width: 640px;
@@ -29,14 +31,15 @@ body {
     margin: 0 auto;
 }
 
+/*Changed background of the first navigation area to stand out */
 header {
     background-color: rgb(168, 139, 66);
 }
 
 /*Grid Styles*/
+/*Setting the styles for rows, to clear floats and to prevent container collapse. Floated all classes beginning with "col-" to the left. Set columns to their correct widths. */
 .row {
     clear: both;
-
 }
 
 .row::after {
@@ -78,59 +81,70 @@ header {
 }
 
 /*nav styles*/
+/*Removed underlining and changed the color of links. */
 nav ul li a {
     text-decoration: none;
-    color: rgb(85, 61, 0);
+    color: rgba(85, 61, 0, 0.747);
 }
 
+/*Removed 'discs' from list items and changed the padding to fit better in the row. */
 nav ul {
     list-style-type: none;
     padding: 0;
     padding-left: 5px;
 }
 
+/*Made text smaller to keep links in one line instead of two. */
 nav#horizontal li {
     font-size: 0.92em;
     text-align: center;
 }
 
+/*Fixed the line spacing between links in the three column nav and the horizontal nav. */
 nav,
 nav#horizontal {
     line-height: 19px;
 }
 
+/*Fixed a spacing issue with h2 elements in columns with a width of 100%*/
 div.col-1-1 h2 {
     margin-top: 0;
 }
 
 /*Article Styles*/
+/*Changed margin on all sides of the h2 elements and changed to a different font. */
 h2 {
     margin: 1vw;
     font-size: 1.1em;
     font-family: 'Roboto Slab', serif;
 }
 
+/*Changed margin on all sides of the paragraph elements, indented the first line, and changed font. */
 p {
     margin: 1vw;
     text-indent: 1vw;
     font-family: 'Rosario', sans-serif;
 }
 
+/*Fixed the padding on the third column nav in the article */
 article div.col-23-100 ul {
     padding-left: 10px;
     padding-right: 5px;
 }
 
+/*Changed margin and font to match that of the rest of the article*/
 article div.col-23-100 ul li {
     margin-top: 10px;
     font-family: 'Rosario', sans-serif;
 }
 
+/*Indented the nested ul */
 article div.col-23-100 ul ul li {
     margin-left: 1vw;
 }
 
-/*Logo*/
+/*Image Styles*/
+/*Floated the logo image to the left, and set the width to 100% to take up the entire block it is placed in*/
 header img {
     display: block;
     width: 100%;
@@ -138,7 +152,16 @@ header img {
     margin: auto;
 }
 
+/*Set the position of Laura Blake's image to fit into the flow of the paragraph that follows it. */
+article img {
+    position: relative;
+    top: 0;
+    left: 1vw;
+    padding-right: 30px;
+}
+
 /*Footer Styles*/
+/*Cleared the float of the footer, changed the background color and aligned the text to the center. Also set the padding to make it look less cramped. */
 footer {
     clear: both;
     background-color: rgb(167, 117, 57);
